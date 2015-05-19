@@ -4,4 +4,4 @@ FROM rocker/hadleyverse
 MAINTAINER "Petr Simecek" lamparna@gmail.com
 
 # install additional BioC scripts
-RUN Rscript -e 'source("http://bioconductor.org/biocLite.R"); biocLite("annotate", ask=FALSE); biocLite("biomaRt", ask=FALSE)'
+RUN Rscript -e 'source("http://bioconductor.org/biocLite.R"); biocLite("DOQTL", ask=FALSE)'
