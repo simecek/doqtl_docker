@@ -1,5 +1,5 @@
 ## Based on rocker / hadleyverse maintained by Carl Boettiger and Dirk Eddelbuettel
-FROM rocker / hadleyverse
+FROM rocker/hadleyverse
 
 MAINTAINER "Petr Simecek" lamparna@gmail.com
 
